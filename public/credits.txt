@@ -1,0 +1,53 @@
+TUSHANT — CODE, CURIOSITY & CRAFT
+Private local portfolio preview, November 2026.
+
+The custom layout, interactions, and site copy were created for Tushant.
+Public profile and project evidence: https://github.com/TUSHANT-CSE
+Project information is a November 16, 2026 snapshot, not a live GitHub feed.
+
+PROJECT SCREENSHOTS
+PayProof: https://github.com/TUSHANT-CSE/payproof
+Pulse: https://github.com/TUSHANT-CSE/pulse
+These images show synthetic demo data, not real payments or live monitoring.
+They are reused from the user's public project documentation, resized and
+converted to WebP for this portfolio. Screenshot credentials were redacted
+in the upstream PayProof source.
+
+3D CHARACTER AND ENVIRONMENT
+Source: user-supplied portfolio-website-main.zip
+Repository documented by the archive:
+https://github.com/red1-for-hek/portfolio-website
+Copyright (c) 2025 Redoyanul Haque.
+The archive distributes its code under the MIT License. The full supplied
+notice is retained at /models/LICENSE.txt.
+
+The character is a stylized fictional avatar, not a photograph of Tushant.
+The encrypted archive asset was decoded to GLB. Runtime lighting/materials
+and the scene implementation were changed for this site. Upstream model
+provenance and model-specific rights have not been independently verified;
+review them before public distribution. The original archive is unchanged.
+
+THREE.JS
+Copyright 2010-2024 three.js authors. MIT License.
+Full notice: /THREE-LICENSE.txt
+https://threejs.org/
+
+DRACO DECODER
+Google Draco contributors. Apache License 2.0.
+The bundled decoder was copied unchanged from the supplied archive.
+Full upstream notice: /draco/LICENSE.txt
+https://github.com/google/draco
+
+GEIST FONT
+Copyright 2024 The Geist Project Authors, as recorded in the included fonts.
+https://github.com/vercel/geist-font
+Licensed under the SIL Open Font License, version 1.1.
+The fonts are self-hosted. The full current upstream OFL notice is included
+at /fonts/OFL.txt. Typeface files were not modified.
+
+PRIVACY
+The website has no analytics, cookies, trackers, forms, or visitor accounts.
+It contains no personal email, phone number, exact location, or private photo.
+Only first name, professional project information, and GitHub links are shown.
+External sites are opened only after the visitor follows a link.
+This version is for local review only and has not been published.

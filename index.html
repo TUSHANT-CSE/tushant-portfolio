@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#101014" />
+  <meta name="description" content="Tushant's digital workshop. A computer science student building thoughtful backend systems, useful interfaces, and projects that are honest about their state." />
+  <meta name="robots" content="noindex, nofollow" />
+  <meta name="referrer" content="no-referrer" />
+  <title>Tushant — Code, curiosity & craft</title>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="preload" href="/fonts/geist-regular.ttf" as="font" type="font/ttf" crossorigin />
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="reading-progress" aria-hidden="true"></div>
+  <header class="header">
+    <a class="wordmark" href="#home" aria-label="Tushant, home"><span class="brand-icon" aria-hidden="true">t<span>.</span></span>tushant<span class="muted-dot">.</span></a>
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <a href="#work">Selected work</a><a href="#about">About</a><a href="#toolkit">Toolkit</a>
+    </nav>
+    <div class="header-actions">
+      <button class="motion-toggle icon-button" aria-label="Pause animations" aria-pressed="false" title="Pause animations"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6v12M15 6v12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
+      <a class="header-github" href="https://github.com/TUSHANT-CSE" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+      <button class="menu-toggle icon-button" aria-label="Open navigation" aria-expanded="false" aria-controls="mobile-navigation"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 8h16M4 16h16" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></button>
+    </div>
+    <nav id="mobile-navigation" class="mobile-nav" aria-label="Mobile navigation" hidden><a href="#work">Selected work</a><a href="#about">About</a><a href="#toolkit">Toolkit</a><a href="https://github.com/TUSHANT-CSE" target="_blank" rel="noopener noreferrer">GitHub ↗</a></nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section-shell" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot" aria-hidden="true"></span> CODE. CURIOSITY. CRAFT.</div>
+        <p class="hero-hello">Hey, I'm</p>
+        <h1 id="hero-title">Tushant<span>.</span></h1>
+        <p class="hero-statement">Thoughtful systems.<br /><span class="statement-muted">A playful perspective.</span></p>
+        <p class="hero-description">A computer science student turning curiosity into useful software. I build for the details—not just the demo.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#work">Explore my work <span aria-hidden="true">↘</span></a><a class="button button-quiet" href="#about">A little about me <span aria-hidden="true">→</span></a></div>
+        <div class="hero-note"><span class="note-line" aria-hidden="true"></span> Backend systems · Web experiences · Always learning</div>
+      </div>
+      <div class="hero-art" aria-label="Interactive stylized 3D character">
+        <div class="orbital-ring ring-one" aria-hidden="true"></div><div class="orbital-ring ring-two" aria-hidden="true"></div>
+        <div class="scene-halo" aria-hidden="true"></div>
+        <div id="avatar-scene" class="avatar-scene">
+          <div class="scene-fallback" aria-hidden="true"><div class="fallback-orbit"></div><span>t.</span><small>CREATIVE BY DEFAULT</small></div>
+        </div>
+        <div class="art-label art-label-top"><span class="label-cross" aria-hidden="true">+</span><span>DIGITAL ALTER EGO<br /><strong>Made of code & curiosity</strong></span></div>
+        <div class="floating-note"><span class="code-mark" aria-hidden="true">&lt;/&gt;</span><div><span>currently.building</span><strong>Ideas → Working things</strong></div></div>
+        <div class="scene-bottom"><span class="scene-hint" id="scene-status" role="status">A little personality, in 3D</span><div class="light-controls" aria-label="Character lighting"><button class="light-swatch violet selected" data-light="violet" aria-label="Violet lighting" aria-pressed="true"></button><button class="light-swatch blue" data-light="blue" aria-label="Blue lighting" aria-pressed="false"></button><button class="light-swatch amber" data-light="amber" aria-label="Warm lighting" aria-pressed="false"></button></div></div>
+      </div>
+      <div class="hero-footer"><a href="#work" class="scroll-cue"><span class="scroll-arrow" aria-hidden="true">↓</span> SCROLL TO EXPLORE</a><span class="hero-index">INDEPENDENT MIND. OPEN SOURCE.</span></div>
+    </section>
+
+    <div class="craft-strip" aria-hidden="true"><div>CURIOUS BY NATURE <span>✳</span> INTENTIONAL BY DESIGN <span>✳</span> BUILT TO BE UNDERSTOOD <span>✳</span> CURIOUS BY NATURE <span>✳</span> INTENTIONAL BY DESIGN <span>✳</span></div></div>
+
+    <section class="work-section section-shell" id="work" aria-labelledby="work-title">
+      <div class="section-heading"><div><p class="eyebrow section-number">01 / SELECTED WORK</p><h2 id="work-title">Less talk.<br /><span class="muted-heading">More building.</span></h2></div><p class="section-summary">A few things I've put my curiosity into.<br />Real repositories. Clear boundaries.<br />Every project has a story.</p></div>
+      <article class="project-card payproof-card">
+        <div class="project-copy"><div class="project-topline"><span class="project-number">01</span><span class="project-type">BACKEND / FINTECH TOOLKIT</span></div><h3>PayProof<span class="project-dot">.</span></h3><p class="project-tagline">Evidence isn't truth.<br />Reconciliation is.</p><p class="project-description">A UPI collection toolkit that separates a bank alert from a confirmed payment. Exact matching, an auditable ledger, and signed webhooks.</p><div class="tags"><span>TypeScript</span><span>Fastify</span><span>PostgreSQL</span></div><div class="project-links"><button class="text-button" data-project="payproof">Inside the build <span aria-hidden="true">↗</span></button><a href="https://github.com/TUSHANT-CSE/payproof" target="_blank" rel="noopener noreferrer" aria-label="View PayProof source on GitHub">Source code ↗</a></div><p class="project-disclaimer">Learning toolkit · Not a payment gateway</p></div>
+        <button class="project-visual payproof-visual" data-project="payproof" aria-label="Explore the PayProof case study"><span class="visual-grid" aria-hidden="true"></span><div class="browser-frame"><div class="browser-bar"><span class="window-dots" aria-hidden="true"><i></i><i></i><i></i></span><span>payproof / merchant dashboard</span><span aria-hidden="true">↗</span></div><img src="/images/payproof.webp" width="1440" height="1000" loading="lazy" decoding="async" alt="Actual PayProof demo dashboard showing synthetic payment intents and reconciliation controls" /></div><span class="visual-caption"><span class="status-dot" aria-hidden="true"></span> ACTUAL PRODUCT · SYNTHETIC DEMO DATA</span><span class="visual-open" aria-hidden="true">↗</span></button>
+      </article>
+      <article class="project-card pulse-card">
+        <div class="project-copy"><div class="project-topline"><span class="project-number">02</span><span class="project-type">OBSERVABILITY / WEB EXPERIENCE</span></div><h3>Pulse<span class="project-dot">.</span></h3><p class="project-tagline">A heartbeat for<br />the things you ship.</p><p class="project-description">An animated uptime console with HTTP checks, SQLite history, and incident timelines. A browser-only demo lets you explore the interface safely.</p><div class="tags"><span>JavaScript</span><span>SQLite</span><span>WebGL</span></div><div class="project-links"><button class="text-button" data-project="pulse">Inside the build <span aria-hidden="true">↗</span></button><a href="https://tushant-cse.github.io/pulse/" target="_blank" rel="noopener noreferrer">Try the demo ↗</a></div><p class="project-disclaimer">Public demo uses simulated monitoring data</p></div>
+        <button class="project-visual pulse-visual" data-project="pulse" aria-label="Explore the Pulse case study"><span class="visual-grid" aria-hidden="true"></span><div class="browser-frame"><div class="browser-bar"><span class="window-dots" aria-hidden="true"><i></i><i></i><i></i></span><span>pulse / monitoring console</span><span aria-hidden="true">↗</span></div><img src="/images/pulse.webp" width="1440" height="1000" loading="lazy" decoding="async" alt="Actual Pulse browser demo showing the animated uptime-monitoring interface with simulated data" /></div><span class="visual-caption"><span class="status-dot" aria-hidden="true"></span> BROWSER DEMO · NO LIVE MONITORING</span><span class="visual-open" aria-hidden="true">↗</span></button>
+      </article>
+      <div class="lab-heading"><h3>From the workbench</h3><a class="subtle-link" href="https://github.com/TUSHANT-CSE?tab=repositories" target="_blank" rel="noopener noreferrer">All repositories <span aria-hidden="true">↗</span></a></div>
+      <div class="lab-list"><a href="https://github.com/TUSHANT-CSE/webdevassgn3" target="_blank" rel="noopener noreferrer"><span class="lab-index">03</span><div><h4>Student Records API</h4><p>Express CRUD, validation, and clear failure responses.</p></div><span class="lab-tag">NODE.JS / EXPRESS</span><span class="lab-arrow" aria-hidden="true">↗</span></a><a href="https://github.com/TUSHANT-CSE/PYTHON" target="_blank" rel="noopener noreferrer"><span class="lab-index">04</span><div><h4>Python Explorations</h4><p>Gradebooks, library tools, and weather-data visualisation.</p></div><span class="lab-tag">PYTHON / JUPYTER</span><span class="lab-arrow" aria-hidden="true">↗</span></a><a href="https://github.com/TUSHANT-CSE/tushantDSA" target="_blank" rel="noopener noreferrer"><span class="lab-index">05</span><div><h4>The Problem-Solving Lab</h4><p>Working through data structures and algorithms in Python.</p></div><span class="lab-tag">ALGORITHMS / PRACTICE</span><span class="lab-arrow" aria-hidden="true">↗</span></a></div>
+    </section>
+
+    <section class="about-section" id="about" aria-labelledby="about-title"><div class="section-shell about-layout"><div class="about-heading"><p class="eyebrow section-number">02 / THE PERSON BEHIND THE CODE</p><h2 id="about-title">Still learning.<br /><span class="muted-heading">Always making.</span></h2><div class="about-sticker"><span aria-hidden="true">{ }</span><p>Curiosity is<br />the constant.</p></div></div><div class="about-body"><p class="about-lead">I like knowing <em>why</em><br />something works.</p><p>I'm Tushant, a computer science student exploring the space between reliable systems and expressive interfaces. My projects range from payment reconciliation and monitoring tools to APIs and small Python experiments.</p><p>I care about what happens after the happy path: duplicate events, invalid inputs, unavailable services, and states that should never pretend to be something they aren't.</p><p>Right now, I'm sharpening my foundations in data structures, algorithms, and machine learning—and learning by building things I can explain.</p><div class="principles"><span><i aria-hidden="true">01</i> Make the state honest.</span><span><i aria-hidden="true">02</i> Build the failure path.</span><span><i aria-hidden="true">03</i> Keep the curiosity.</span></div></div></div></section>
+
+    <section class="toolkit-section section-shell" id="toolkit" aria-labelledby="toolkit-title"><div class="section-heading"><div><p class="eyebrow section-number">03 / TOOLS, NOT IDENTITIES</p><h2 id="toolkit-title">My current<br /><span class="muted-heading">building blocks.</span></h2></div><p class="section-summary">Tools I've used across my projects.<br />The stack changes. The habit of<br />learning doesn't.</p></div><div class="toolkit-grid"><article><span class="tool-symbol" aria-hidden="true">&lt;/&gt;</span><h3>Languages</h3><p>TypeScript<br />JavaScript<br />Python<br />SQL · HTML · CSS</p></article><article><span class="tool-symbol" aria-hidden="true">{&nbsp;}</span><h3>Systems & data</h3><p>Node.js · Fastify · Express<br />PostgreSQL · PGlite · SQLite<br />REST APIs · Webhooks<br />Validation · Testing</p></article><article><span class="tool-symbol" aria-hidden="true">◈</span><h3>Interfaces</h3><p>React<br />Vite<br />Three.js / WebGL<br />Responsive CSS</p></article><article><span class="tool-symbol" aria-hidden="true">↗</span><h3>In progress</h3><p>Data structures & algorithms<br />Machine learning<br />Python & Jupyter<br />Better questions, every day</p></article></div></section>
+
+    <section class="contact-section section-shell" id="contact" aria-labelledby="contact-title"><p class="eyebrow">GOOD SOFTWARE STARTS WITH CURIOSITY.</p><h2 id="contact-title">See what I'm<br /><span>building next.</span></h2><a class="button button-primary contact-button" href="https://github.com/TUSHANT-CSE" target="_blank" rel="noopener noreferrer">Find me on GitHub <span aria-hidden="true">↗</span></a><p class="contact-handle">github.com/TUSHANT-CSE</p><div class="contact-orbit" aria-hidden="true"></div></section>
+  </main>
+  <footer class="footer section-shell"><a class="wordmark" href="#home">tushant<span class="muted-dot">.</span></a><p>Built with intent. Still a work in progress.</p><div><button class="footer-link" id="privacy-open">Privacy & credits</button><span class="copyright">© <span id="year">2026</span></span><a href="#home" class="back-top" aria-label="Back to top">↑</a></div></footer>
+
+  <dialog id="project-dialog" class="detail-dialog" aria-labelledby="dialog-title"><button class="dialog-close icon-button" aria-label="Close project details">×</button><div id="project-dialog-content"></div></dialog>
+  <dialog id="privacy-dialog" class="detail-dialog privacy-dialog" aria-labelledby="privacy-title"><button class="dialog-close icon-button" aria-label="Close privacy information">×</button><p class="eyebrow">A QUIETER CORNER OF THE INTERNET</p><h2 id="privacy-title">Privacy, by default.</h2><p>This preview runs locally and has not been published. Search indexing is disabled as an extra precaution, not as a substitute for access control.</p><h3>What this portfolio does not collect</h3><p>No analytics, tracking pixels, cookies, contact forms, or visitor profiles. Motion preferences are kept only while this page is open. Fonts, images, and the 3D model are served locally—no external asset requests.</p><h3>What is shown</h3><p>My first name, public professional work, and GitHub handle. No personal email, phone number, precise location, college details, or private photographs. Project copy is based on public repositories, not invented clients or production outcomes.</p><h3>External links</h3><p>GitHub and project-demo links open other websites, which have their own privacy practices. They load only when you choose to open them. Links use no-referrer protection.</p><h3>Credits & provenance</h3><p>The layout and implementation were created for this portfolio. The stylized 3D avatar is reused from Redoyanul Haque's supplied MIT-licensed portfolio and is a fictional character, not a photograph of Tushant. Its upstream model provenance has not been independently verified. Review those asset rights before publication.</p><p>Project screenshots come from TUSHANT-CSE's public repositories and show synthetic demonstration data. Rendering uses Three.js; Geist is self-hosted under the SIL Open Font License.</p><a class="subtle-link" href="/credits.txt" target="_blank" rel="noopener noreferrer">Read included license notices ↗</a></dialog>
+  <noscript><div class="noscript-notice">The portfolio content and GitHub links work without JavaScript. Interactive 3D and project-detail dialogs require JavaScript; use each project's source link for its documentation.</div></noscript>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
